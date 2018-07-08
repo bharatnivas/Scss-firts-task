@@ -1,3 +1,9 @@
+.blue { color:'blue';}
+
+.red { color:'red';}
+
 body { background: #f2f2f2; font-family: "arial"; }
 
 .container ul li { padding: 10px; }
+
+#box { background:red; @include border-radius(5px);height: 120px;width: 120px;}
